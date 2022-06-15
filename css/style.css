@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+}
+
+#main {
+    width: 100vw;
+    max-width: 800px;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+}
