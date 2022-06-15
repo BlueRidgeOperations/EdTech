@@ -11,7 +11,7 @@ video {
     width: 100%;
     object-fit: cover;
 }
-.embed-responsive {
+.embed-responsive-item {
     width: 100vw;
     max-width: 800px;
 }
