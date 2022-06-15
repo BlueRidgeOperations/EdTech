@@ -28,7 +28,3 @@
     border: 0;
     object-fit: cover;
 }
-.embed-responsive-item {
-    width: 100vw;
-    max-width: 800px;
-}
