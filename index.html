@@ -21,16 +21,9 @@
         <div class="container" id="main">
             <h1>Hello World</h1>
             <p>I'm hosted with GitHub Pages.</p>
-            <video controls>
-                <source src="test/test.mp4" type="video/mp4">
-                Your browser does not support this video.
-            </video>
-
-            <div class="embed-responsive embed-responsive-16by9">
-
-            <iframe class="embed-responsive-item" src="test/test_player.html?" scrolling="no" frameborder="0"
-            webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        </div>
+            <div class="iframe-container">
+                <iframe id="player" class="responsive-iframe" src="/test/test_player.html" seamless></iframe>
+            </div>
         </div>
     </body>
 </html>
